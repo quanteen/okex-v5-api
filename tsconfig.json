@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "outDir": "build",
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "declaration": true,
+    "inlineSourceMap": true,
+    "esModuleInterop": true,
+    "lib": ["es2017"],
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types", "src/types"]
+  },
+  "exclude": ["node_modules/**"],
+  "compileOnSave": false
+}
